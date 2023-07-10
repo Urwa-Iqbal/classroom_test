@@ -3,7 +3,7 @@ import unittest
 import sys
 from io import StringIO
 
-from Test import *
+from test import *
 
 class TestOutput(unittest.TestCase):
     def test_output(self):
