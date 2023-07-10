@@ -7,11 +7,7 @@ from test import *
 
 class TestOutput(unittest.TestCase):
     def test_output(self):
-        expected_output ="""  * 
-                              * *
-                              * * *
-                              * * * *
-                              * * * * * """
+        expected_output ="hello, Human:)"
 
         # Redirect sys.stdout to capture the output
         sys.stdout = captured_output = StringIO()
